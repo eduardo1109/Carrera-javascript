@@ -1,0 +1,23 @@
+{
+  "name": "curso_profesional_javascript",
+  "version": "1.0.0",
+  "description": "Inicio Curso profesional javascript",
+  "license": "MIT",
+  "keywords": ["platzi"],
+  "author": "Eduardo Carrasco <edo.carrascoroman@gmail.com>",
+  "scripts": {"start": "live-server"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.1"
+  },
+  "main": "index.js",  
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduardo1109/curso-profesional-javascript.git"
+  },
+  "bugs": {
+    "url": "https://github.com/eduardo1109/curso-profesional-javascript/issues"
+  },
+  "homepage": "https://github.com/eduardo1109/curso-profesional-javascript#readme"
+}

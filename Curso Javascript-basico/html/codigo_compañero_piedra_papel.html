@@ -1,0 +1,76 @@
+var seguirJugando = true
+
+functionjuego(){
+
+var choice = window.prompt("¿Piedra, papel o tijera?")
+var random = Math.floor(Math.random()*3);
+
+switch(choice) {
+ case"piedra":
+  switch(random){
+
+  case0:
+  window.alert("La computadora eligió tijera, Ganaste.")
+  break;
+
+  case1:
+  window.alert("La computadora eligió papel, Perdiste.")
+  break;
+
+  case2:
+  window.alert("La computadora también eligió piedra, Empate.")
+  break;
+  }
+
+  break;
+
+case"papel":
+  switch(random){
+
+  case0:
+  window.alert("La computadora eligió piedra, Ganaste.")
+  break;
+
+  case1:
+  window.alert("La computadora eligió tijera, Perdiste.")
+  break;
+
+  case2:
+  window.alert("La computadora también eligió papel, Empate.")
+  break;
+  }
+
+  break;
+
+case"tijera":
+  switch(random){
+
+  case0:
+  window.alert("La computadora eligió piedra, Perdiste.")
+  break;
+
+  case1:
+  window.alert("La computadora también eligió tijera, Empate.")
+  break;
+
+  case2:
+  window.alert("La computadora eligió papel, Ganaste.")
+  break;
+  }
+
+  break;
+
+  default:
+   window.alert("Comando invalido.")
+ }
+}
+
+while(seguirJugando == true){
+  juego()
+  if (window.confirm("¿Seguir jugando?")){
+    seguirJugando = true
+  }
+  else{
+    seguirJugando = false
+  }
+}```

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+// con este codigo lo que hacemos es un asincronimo, puesto que pedimos
+//que la letra b se muesstre 2 segundos despues. Lo interesante es que 
+//primero me va a mostrar lo que hay en el codigo matriz, osea la A Y C, 
+//luego de eso ira a la cola de tareas y traera la letra b, que se ejecutas 
+//dos segundos despues, pero aunque pongamos que se ejecute al mismo tiempo 
+//que las otras, al invocar setTimeout o una funcion, la letra B se ejecutara
+//de igual manera en el ultimo lugar
+<script>
+    console.log("a");
+    setTimeout(() => console.log("b"),2000)
+    console.log("c");
+</script>
+    
+</script>
+
+</body>
+</html>
